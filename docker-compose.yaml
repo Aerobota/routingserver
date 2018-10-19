@@ -1,0 +1,6 @@
+valhalla:
+  image: valhalla/docker:ppa-1.4.5
+  ports:
+    - "8082:8002"
+  volumes:
+    - "./data:/data/valhalla"
